@@ -10,8 +10,6 @@ export const authenticate = async (mode, email, password) => {
       password: password,
       returnSecureToken: true,
     });
-
-    console.log(response);
 }
 
 export const createUser = async (email, password) => {
