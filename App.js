@@ -7,6 +7,8 @@ import SignupScreen from './screens/SignupScreen';
 import WelcomeScreen from './screens/WelcomeScreen';
 import { Colors } from './constants/styles';
 
+//* the docs for firebase auth rest sdk: https://firebase.google.com/docs/reference/rest/auth
+
 const Stack = createNativeStackNavigator();
 
 function AuthStack() {
